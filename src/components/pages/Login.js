@@ -19,7 +19,9 @@ export default function Login() {
 
           <TextInput type="password" placeholder="Enter password" icon="lock" />
 
-          <Button text="Login" />
+          <Button>
+            <span>Login</span>
+          </Button>
 
           <div class="info">
             Don't have an account? <a href="signup.html">Signup</a> instead.
