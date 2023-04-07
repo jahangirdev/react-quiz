@@ -1,11 +1,11 @@
 import "../css/App.css";
 import Layout from "./Layout";
-import Signup from "./pages/Signup";
+import Login from "./pages/Login";
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Signup />
+        <Login />
       </Layout>
     </div>
   );

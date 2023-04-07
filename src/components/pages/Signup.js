@@ -1,16 +1,16 @@
+import styles from "../../css/Signup.module.css";
 import Button from "../Button.js";
 import Checkbox from "../Checkbox.js";
 import Form from "../Form.js";
 import Illustration from "../Illustration";
 import TextInput from "../TextInput.js";
-
 export default function Signup() {
   return (
     <>
       <h1>Create an account</h1>
       <div className="column">
         <Illustration />
-        <Form>
+        <Form className={styles.signup}>
           <TextInput type="text" placeholder="Enter your name" icon="person" />
 
           <TextInput
