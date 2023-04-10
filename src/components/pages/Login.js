@@ -8,7 +8,7 @@ export default function Login() {
   return (
     <>
       <h1>Login to your account</h1>
-      <div class="column">
+      <div className="column">
         <Illustration />
         <Form className={`${styles.login} ${styles.form}`}>
           <TextInput
@@ -23,7 +23,7 @@ export default function Login() {
             <span>Login</span>
           </Button>
 
-          <div class="info">
+          <div className="info">
             Don't have an account? <a href="signup.html">Signup</a> instead.
           </div>
         </Form>
